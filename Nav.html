@@ -7,25 +7,30 @@
     <link href="Nav.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-    <div class="search"><img src="Images/search.png">
-</div>
-    <nav>
-        <div class="dropdown">
-          <button><a href="#" class="home"><img src="Images/logo.png"></a></button>
-          <div class="projects">
-            <button>V</button>
+<header>
+    <nav class="navbar">
+        <img class="brand-title" src="Images/logo.png">
+        <a href="#" id="toggle-button" class="toggle-button">
+            <div class="bar"><p>V</p></div>
+        </a>            
+        <li class="sb"> <img class="search" src="Images/search.png"> <p>Try "Vancouver"</p> </li>
+
+        <div class="navbar-links">            
+
             <ul>
-                <li> <a href="https://www.airbnb.com/host/homes"> Add Listing</a></li>
-                <li> <a href="https://www.airbnb.com/d/onlinehost"> Host </a> </li>
-                <li> <a href="https://www.airbnb.com/wishlists"> Saved</a> </li>
-                <li> <a href="https://www.airbnb.com/new"> Trips</a> </li>
-                <li> <a href="https://www.airbnb.com/inbox"> Messages </a> </li>
-                <li> <a href="https://www.airbnb.com/help/home">Help </a> </li>
+                <li><a href="#">AddListing</a></li>
+                <li><a href="#">Host</a></li>
+                <li><a href="#">Saved</a></li>
+                <li><a href="#">Trips</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Help</a></li>
+                <li> <img class="profile" src="./Images/profile.jpg"> </li>
+
             </ul>
-          </div>
-       
-      </nav>
-</div>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+
+</header>
 </body>
 </html>
